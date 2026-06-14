@@ -1,6 +1,11 @@
 # Mind Mystery AI 🕵️🔍👻
 <img width="1910" height="1035" alt="image" src="https://github.com/user-attachments/assets/47ef77bf-ac84-43a3-a7b9-10bf4e0a6c6a" />
 
+Screenshots:
+<img width="1910" height="1035" alt="image" src="https://github.com/user-attachments/assets/679e8432-0253-4d2d-aea3-e05cf9da293f" />
+<img width="1910" height="1033" alt="image" src="https://github.com/user-attachments/assets/ac35f8d4-978c-4944-b66f-4c7dececee1b" />
+
+
 A premium AI-powered detective game master built with React, TypeScript, Vite, Tailwind CSS, Framer Motion, React Router, Zustand, Axios, and @dnd-kit.
 
 ## Features
