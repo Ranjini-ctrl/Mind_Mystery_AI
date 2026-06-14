@@ -1,0 +1,17 @@
+export const hintData = {
+  small: {
+    title: 'Small Hint',
+    description: 'Micro guidance to keep you on track without revealing the whole truth.',
+    text: 'Review the suspect timeline in the guest ledger.'
+  },
+  medium: {
+    title: 'Medium Hint',
+    description: 'A stronger clue that connects the evidence to key motives.',
+    text: 'The red fiber links the victim to the late-night visitor.'
+  },
+  major: {
+    title: 'Major Hint',
+    description: 'A high-impact hint that reveals the pivot point in the case.',
+    text: 'The weapon was not where it was found, and one suspect changed their story.'
+  }
+};

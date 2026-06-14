@@ -1,94 +1,46 @@
-# Mind_Mystery_AI
-🕵️ Mind Mystery AI – An AI-powered detective game where players solve dynamically generated murder mysteries through suspect interrogation, clue analysis, evidence tracking, and immersive storytelling. 🚔🔍✨
-# Mind Mystery AI - Detective Game
+# Mind Mystery AI 🕵️🔍👻
 
-An immersive AI-powered murder mystery detective game where you investigate crime scenes, interrogate suspects, connect evidence, and solve cases.
+A premium AI-powered detective game master built with React, TypeScript, Vite, Tailwind CSS, Framer Motion, React Router, Zustand, Axios, and @dnd-kit.
 
-## 🎮 Features
+## Features
 
-- **AI Case Generation**: Generate unique murder mysteries with varying difficulty levels
-- **Evidence Board**: Drag and connect clues and suspects to uncover the truth
-- **Real-Time Interrogation**: Chat with AI suspects and track suspicion metrics
-- **Notebook & Hints**: Autosave detective notes with version history and tiered hint support
-- **Detective Dashboard**: Track your progress, achievements, and detective score
+- Modern dark detective interface with glassmorphism
+- Landing page with hero, features, testimonials, and FAQ
+- Authentication prototype with Login, Register, and Forgot Password screens
+- Dashboard with active cases, solved cases, score, achievements, and progress
+- AI Case Generator with difficulty/theme options and loading skeletons
+- Investigation workspace with suspect and evidence panels
+- Interactive evidence board powered by @dnd-kit drag-and-drop
+- Suspect interrogation chat with typewriter narration and quick questions
+- Notebook editor with autosave mock behavior and version history
+- Hint system with tiered prompts and accusation flow
+- Result page with verdict, accuracy, rank, and XP
+- Profile screen with avatar, stats, and settings
 
-## 🚀 Getting Started
+## Project Structure
 
-### Prerequisites
+- `src/components` - reusable UI components
+- `src/pages` - page views for the app
+- `src/store` - Zustand state stores for auth, cases, and notebook
+- `src/services` - Axios API service with interceptors
+- `src/data` - realistic mock game data
+- `src/theme.ts` - theme tokens for consistent styling
 
-- Node.js (v18 or higher)
-- npm or yarn
+## Getting Started
 
-### Installation
-
-1. Clone the repository
-2. Install dependencies:
 ```bash
 npm install
-```
-
-3. Start the development server:
-```bash
 npm run dev
 ```
 
-4. Open your browser and navigate to `http://localhost:5173`
+Open the app at `http://localhost:4173`.
 
-## 🏗️ Project Structure
+## Build
 
-```
-mind-mystery-ai/
-├── public/              # Static assets
-├── src/
-│   ├── assets/         # Images and media
-│   ├── components/     # Reusable React components
-│   ├── data/           # Mock data and constants
-│   ├── pages/          # Page components
-│   ├── services/       # API services
-│   ├── store/          # Zustand state management
-│   ├── types.ts        # TypeScript type definitions
-│   ├── App.tsx         # Main app component with routing
-│   ├── main.tsx        # Entry point
-│   └── index.css       # Global styles
-├── package.json        # Dependencies and scripts
-└── vite.config.ts      # Vite configuration
+```bash
+npm run build
 ```
 
-## 🛠️ Tech Stack
+## Notes
 
-- **React 19** - UI framework
-- **TypeScript** - Type safety
-- **Vite** - Build tool
-- **React Router** - Navigation
-- **Zustand** - State management
-- **Framer Motion** - Animations
-- **Tailwind CSS** - Styling
-- **Axios** - HTTP client
-
-## 📝 Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-
-## 🎯 Routes
-
-- `/` - Landing page
-- `/dashboard` - Detective dashboard
-- `/generate` - Case generator
-- `/investigation` - Investigation workspace
-- `/evidence` - Evidence board
-- `/chat` - Suspect interrogation
-- `/notebook` - Detective notebook
-- `/result` - Case results
-- `/auth` - Authentication
-- `/profile` - User profile
-
-## 📄 License
-
-MIT License
-
-## 👥 Authors
-
-RANJINI HACK Project
+This project is designed as a hackathon-ready frontend prototype with a polished UI, responsive interaction, and mock AI-driven gameplay flow. The API layer is set up for future backend integration.
